@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springintro" />
+        <module name="Spring data advanced quering exercise" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Spring data advanced quering exercise" options="-parameters" />
       <module name="springintro" options="-parameters" />
     </option>
   </component>
